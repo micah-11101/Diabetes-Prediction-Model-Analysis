@@ -1,10 +1,9 @@
 # Diabetes Prediction Model Analysis 
 
-Simple overview of use/purpose.
+We have created a neural network model to accurately predict if a patient has diabetes based on information about the patients physical health.
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
+## The Data We Used
+our data was obtained from a [kaggle](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset) dataset created by user [Alex Teboul](https://www.kaggle.com/alexteboul). The data was orginally sourced from the [CDC's](https://www.cdc.gov/brfss/annual_data/annual_data.htm) 2015  Behavioral Risk Factor Surveillance System survey that collects data anually.
 
 ## Getting Started
 
