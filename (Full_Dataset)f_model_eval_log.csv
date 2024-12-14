@@ -1,0 +1,320 @@
+Model,Hyperparameters,Accuracy,AUC,Sensitivity,Specificity,Confusion Matrix,Classification Report
+RandomForestClassifier,{'n_estimators': 500},0.860012614,0.804737917,0.169804976,0.973008184,"          Predicted 0  Predicted 1
+Actual 0        53027         1471
+Actual 1         7407         1515","              precision    recall  f1-score   support
+
+         0.0       0.88      0.97      0.92     54498
+         1.0       0.51      0.17      0.25      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.69      0.57      0.59     63420
+weighted avg       0.83      0.86      0.83     63420
+"
+LogisticRegression,{'solver': 'lbfgs'},0.862503942,0.823246246,0.153440933,0.97858637,"          Predicted 0  Predicted 1
+Actual 0        53331         1167
+Actual 1         7553         1369","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.92     54498
+         1.0       0.54      0.15      0.24      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.71      0.57      0.58     63420
+weighted avg       0.83      0.86      0.83     63420
+"
+LogisticRegression_Optimized,"{'C': 0.01, 'penalty': 'l1', 'solver': 'liblinear'}",0.862425102,0.82333682,0.153440933,0.97858637,"          Predicted 0  Predicted 1
+Actual 0        53367         1131
+Actual 1         7594         1328","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.92     54498
+         1.0       0.54      0.15      0.23      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.71      0.56      0.58     63420
+weighted avg       0.83      0.86      0.83     63420
+"
+DecisionTreeClassifier,{'max_depth': None},0.798139388,0.598681888,0.324142569,0.875738559,"          Predicted 0  Predicted 1
+Actual 0        47726         6772
+Actual 1         6030         2892","              precision    recall  f1-score   support
+
+         0.0       0.89      0.88      0.88     54498
+         1.0       0.30      0.32      0.31      8922
+
+    accuracy                           0.80     63420
+   macro avg       0.59      0.60      0.60     63420
+weighted avg       0.81      0.80      0.80     63420
+"
+DecisionTreeClassifier_Optimized,"{'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}",0.861415957,0.797904952,0.095942614,0.986733458,"          Predicted 0  Predicted 1
+Actual 0        53775          723
+Actual 1         8066          856","              precision    recall  f1-score   support
+
+         0.0       0.87      0.99      0.92     54498
+         1.0       0.54      0.10      0.16      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.71      0.54      0.54     63420
+weighted avg       0.82      0.86      0.82     63420
+"
+KNN,{'n_neighbors': 5},0.846420687,0.723514433,0.200627662,0.952145033,"          Predicted 0  Predicted 1
+Actual 0        51890         2608
+Actual 1         7132         1790","              precision    recall  f1-score   support
+
+         0.0       0.88      0.95      0.91     54498
+         1.0       0.41      0.20      0.27      8922
+
+    accuracy                           0.85     63420
+   macro avg       0.64      0.58      0.59     63420
+weighted avg       0.81      0.85      0.82     63420
+"
+GaussianNB,{},0.775291706,0.785768233,0.574871105,0.80810305,"          Predicted 0  Predicted 1
+Actual 0        44040        10458
+Actual 1         3793         5129","              precision    recall  f1-score   support
+
+         0.0       0.92      0.81      0.86     54498
+         1.0       0.33      0.57      0.42      8922
+
+    accuracy                           0.78     63420
+   macro avg       0.62      0.69      0.64     63420
+weighted avg       0.84      0.78      0.80     63420
+"
+GradientBoostingClassifier,{},0.865326395,0.831949947,0.161847119,0.980494697,"          Predicted 0  Predicted 1
+Actual 0        53435         1063
+Actual 1         7478         1444","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.58      0.16      0.25      8922
+
+    accuracy                           0.87     63420
+   macro avg       0.73      0.57      0.59     63420
+weighted avg       0.83      0.87      0.83     63420
+"
+AdaBoostClassifier,{},0.864301482,0.828376601,0.184936113,0.975522038,"          Predicted 0  Predicted 1
+Actual 0        53164         1334
+Actual 1         7272         1650","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.55      0.18      0.28      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.72      0.58      0.60     63420
+weighted avg       0.83      0.86      0.83     63420
+"
+AdaBoostClassifier_Optimized,"{'learning_rate': 0.1, 'n_estimators': 200}",0.864963734,0.828382904,0.144810581,0.982861756,"          Predicted 0  Predicted 1
+Actual 0        53564          934
+Actual 1         7630         1292","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.58      0.14      0.23      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.73      0.56      0.58     63420
+weighted avg       0.83      0.86      0.83     63420
+"
+XGBoostClassifier,{},0.864900662,0.828624498,0.170141224,0.978641418,"          Predicted 0  Predicted 1
+Actual 0        53334         1164
+Actual 1         7404         1518","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.57      0.17      0.26      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.72      0.57      0.59     63420
+weighted avg       0.83      0.86      0.83     63420
+"
+XGBoostClassifier_Optimized,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 500, 'subsample': 0.9}",0.865941343,0.832373321,0.164985429,0.980696539,"          Predicted 0  Predicted 1
+Actual 0        53446         1052
+Actual 1         7450         1472","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.58      0.16      0.26      8922
+
+    accuracy                           0.87     63420
+   macro avg       0.73      0.57      0.59     63420
+weighted avg       0.84      0.87      0.83     63420
+"
+LightGBMClassifier,{},0.865862504,0.831987531,0.158372562,0.981687401,"          Predicted 0  Predicted 1
+Actual 0        53500          998
+Actual 1         7509         1413","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.59      0.16      0.25      8922
+
+    accuracy                           0.87     63420
+   macro avg       0.73      0.57      0.59     63420
+weighted avg       0.84      0.87      0.83     63420
+"
+LightGBMClassifier_Optimized,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200, 'num_leaves': 31}",0.865909808,0.831720417,0.165433759,0.980586444,"          Predicted 0  Predicted 1
+Actual 0        53440         1058
+Actual 1         7446         1476","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.58      0.17      0.26      8922
+
+    accuracy                           0.87     63420
+   macro avg       0.73      0.57      0.59     63420
+weighted avg       0.84      0.87      0.83     63420
+"
+Optimized GaussianNB,GaussianNB(var_smoothing=1e-05),0.7752917060864081,0.7857683434831149,0.5748711051333781,0.8081030496531982,"          Predicted 0  Predicted 1
+Actual 0        44040        10458
+Actual 1         3793         5129","              precision    recall  f1-score   support
+
+         0.0       0.92      0.81      0.86     54498
+         1.0       0.33      0.57      0.42      8922
+
+    accuracy                           0.78     63420
+   macro avg       0.62      0.69      0.64     63420
+weighted avg       0.84      0.78      0.80     63420
+"
+SMOTE_RandomForestClassifier,{'n_estimators': 500},0.8514033427940713,0.8028645196483459,0.2787491593813046,0.9451539506036919,"          Predicted 0  Predicted 1
+Actual 0        51509         2989
+Actual 1         6435         2487","              precision    recall  f1-score   support
+
+         0.0       0.89      0.95      0.92     54498
+         1.0       0.45      0.28      0.35      8922
+
+    accuracy                           0.85     63420
+   macro avg       0.67      0.61      0.63     63420
+weighted avg       0.83      0.85      0.84     63420
+"
+SMOTE_LogisticRegression,{'solver': 'lbfgs'},0.7346736045411542,0.8225855708020487,0.7652992602555481,0.7296598040295057,"          Predicted 0  Predicted 1
+Actual 0        39765        14733
+Actual 1         2094         6828","              precision    recall  f1-score   support
+
+         0.0       0.95      0.73      0.83     54498
+         1.0       0.32      0.77      0.45      8922
+
+    accuracy                           0.73     63420
+   macro avg       0.63      0.75      0.64     63420
+weighted avg       0.86      0.73      0.77     63420
+"
+SMOTE_LogisticRegression_Optimized,"{'C': 0.01, 'penalty': None, 'solver': 'lbfgs'}",0.7346578366445916,0.8225853630819165,0.7652992602555481,0.7296414547322837,"          Predicted 0  Predicted 1
+Actual 0        39764        14734
+Actual 1         2094         6828","              precision    recall  f1-score   support
+
+         0.0       0.95      0.73      0.83     54498
+         1.0       0.32      0.77      0.45      8922
+
+    accuracy                           0.73     63420
+   macro avg       0.63      0.75      0.64     63420
+weighted avg       0.86      0.73      0.77     63420
+"
+SMOTE_DecisionTreeClassifier,{'max_depth': None},0.7936928413749605,0.5970213074951536,0.3272808787267429,0.8700502770743881,"          Predicted 0  Predicted 1
+Actual 0        47416         7082
+Actual 1         6002         2920","              precision    recall  f1-score   support
+
+         0.0       0.89      0.87      0.88     54498
+         1.0       0.29      0.33      0.31      8922
+
+    accuracy                           0.79     63420
+   macro avg       0.59      0.60      0.59     63420
+weighted avg       0.80      0.79      0.80     63420
+"
+SMOTE_DecisionTreeClassifier_Optimized,"{'max_depth': 20, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 10}",0.8297855566067487,0.7360387175600898,0.3521631921093925,0.9079782744320892,"          Predicted 0  Predicted 1
+Actual 0        49483         5015
+Actual 1         5780         3142","              precision    recall  f1-score   support
+
+         0.0       0.90      0.91      0.90     54498
+         1.0       0.39      0.35      0.37      8922
+
+    accuracy                           0.83     63420
+   macro avg       0.64      0.63      0.63     63420
+weighted avg       0.82      0.83      0.83     63420
+"
+SMOTE_KNN,{'n_neighbors': 5},0.7203248186691895,0.7283316353343675,0.61454830755436,0.7376417483210393,"          Predicted 0  Predicted 1
+Actual 0        40200        14298
+Actual 1         3439         5483","              precision    recall  f1-score   support
+
+         0.0       0.92      0.74      0.82     54498
+         1.0       0.28      0.61      0.38      8922
+
+    accuracy                           0.72     63420
+   macro avg       0.60      0.68      0.60     63420
+weighted avg       0.83      0.72      0.76     63420
+"
+SMOTE_GaussianNB,{},0.7253863134657836,0.7891549549325876,0.7177762833445416,0.7266321699878895,"          Predicted 0  Predicted 1
+Actual 0        39600        14898
+Actual 1         2518         6404","              precision    recall  f1-score   support
+
+         0.0       0.94      0.73      0.82     54498
+         1.0       0.30      0.72      0.42      8922
+
+    accuracy                           0.73     63420
+   macro avg       0.62      0.72      0.62     63420
+weighted avg       0.85      0.73      0.76     63420
+"
+SMOTE_GradientBoostingClassifier,{},0.8394670450961842,0.823516575519484,0.4651423447657476,0.9007486513266542,"          Predicted 0  Predicted 1
+Actual 0        49089         5409
+Actual 1         4772         4150","              precision    recall  f1-score   support
+
+         0.0       0.91      0.90      0.91     54498
+         1.0       0.43      0.47      0.45      8922
+
+    accuracy                           0.84     63420
+   macro avg       0.67      0.68      0.68     63420
+weighted avg       0.84      0.84      0.84     63420
+"
+SMOTE_AdaBoostClassifier,{},0.7851624093345948,0.8172722492097976,0.6457072405290294,0.8079929538698668,"          Predicted 0  Predicted 1
+Actual 0        44034        10464
+Actual 1         3161         5761","              precision    recall  f1-score   support
+
+         0.0       0.93      0.81      0.87     54498
+         1.0       0.36      0.65      0.46      8922
+
+    accuracy                           0.79     63420
+   macro avg       0.64      0.73      0.66     63420
+weighted avg       0.85      0.79      0.81     63420
+"
+SMOTE_AdaBoostClassifier_Optimized,"{'learning_rate': 1, 'n_estimators': 200}",0.8363450015767897,0.8202125204827475,0.4672719121273257,0.8967668538294983,"          Predicted 0  Predicted 1
+Actual 0        48872         5626
+Actual 1         4753         4169","              precision    recall  f1-score   support
+
+         0.0       0.91      0.90      0.90     54498
+         1.0       0.43      0.47      0.45      8922
+
+    accuracy                           0.84     63420
+   macro avg       0.67      0.68      0.67     63420
+weighted avg       0.84      0.84      0.84     63420
+"
+SMOTE_XGBoostClassifier,{},0.8647745190791548,0.8274232379712008,0.19580811477247254,0.9742926345920951,"          Predicted 0  Predicted 1
+Actual 0        53097         1401
+Actual 1         7175         1747","              precision    recall  f1-score   support
+
+         0.0       0.88      0.97      0.93     54498
+         1.0       0.55      0.20      0.29      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.72      0.59      0.61     63420
+weighted avg       0.84      0.86      0.84     63420
+"
+SMOTE_XGBoostClassifier_Optimized,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 500, 'subsample': 1.0}",0.8657205928729107,0.8300362729121372,0.18291862811028917,0.9775037616059304,"          Predicted 0  Predicted 1
+Actual 0        53272         1226
+Actual 1         7290         1632","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.57      0.18      0.28      8922
+
+    accuracy                           0.87     63420
+   macro avg       0.73      0.58      0.60     63420
+weighted avg       0.84      0.87      0.83     63420
+"
+SMOTE_LightGBMClassifier,{},0.8646641438032167,0.8296458300175236,0.20085182694463125,0.9733384711365555,"          Predicted 0  Predicted 1
+Actual 0        53045         1453
+Actual 1         7130         1792","              precision    recall  f1-score   support
+
+         0.0       0.88      0.97      0.93     54498
+         1.0       0.55      0.20      0.29      8922
+
+    accuracy                           0.86     63420
+   macro avg       0.72      0.59      0.61     63420
+weighted avg       0.84      0.86      0.84     63420
+"
+SMOTE_LightGBMClassifier_Optimized,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 500, 'num_leaves': 31}",0.865673289183223,0.8303737985889164,0.17417619367854742,0.9788799588975742,"          Predicted 0  Predicted 1
+Actual 0        53347         1151
+Actual 1         7368         1554","              precision    recall  f1-score   support
+
+         0.0       0.88      0.98      0.93     54498
+         1.0       0.57      0.17      0.27      8922
+
+    accuracy                           0.87     63420
+   macro avg       0.73      0.58      0.60     63420
+weighted avg       0.84      0.87      0.83     63420
+"
