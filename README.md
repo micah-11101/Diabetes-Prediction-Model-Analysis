@@ -12,7 +12,8 @@ As the dataset was already quite clean, most of our data cleaning involved ensur
 
 ## The Data We Used
                                                                                                                                                                                                      
-Our original data was obtained from a [kaggle]- Cleaned dataset: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset dataset created by user [Prosper Chuksl](https://www.kaggle.com/prosperchuks) – we used only the .csv file entitled ‘diabetes_data.csv’. The data was originally sourced from the [CDC's]- Original dataset: https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system 2015 Behavioral Risk Factor Surveillance System survey that collects data annually. **Note:** This dataset was synthetically cleaned and standardized so as to be more useful in a machine learning setting.
+Our original data was obtained from a [kaggle]- Cleaned dataset: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset dataset created by user [Prosper Chuksl](https://www.kaggle.com/prosperchuks) – we used only the .csv file entitled ‘diabetes_data.csv’. 
+The data was originally sourced from the [CDC's]- Original dataset: https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system 2015 Behavioral Risk Factor Surveillance System survey that collects data annually. **Note:** This dataset was synthetically cleaned and standardized so as to be more useful in a machine learning setting.
                                                                                                                                                                                                                                                                                                                       
 # Diabetes Prediction Model Analysis
 
