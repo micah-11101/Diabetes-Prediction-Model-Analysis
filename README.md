@@ -58,14 +58,6 @@ Our analysis revealed challenges in accurately predicting diabetes status, as no
 * [Abigail Serpa](https://github.com/AbigailSerpa)
 * [Micah Springer](https://github.com/micah-11101)
 
-## Version History
-
-* 0.1
-	* Initial Release
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
 
 
