@@ -1,5 +1,5 @@
 Model,Hyperparameters,Accuracy,AUC,Sensitivity,Specificity,Confusion Matrix,Classification Report
-RandomForestClassifier,{'n_estimators': 500},0.860012614,0.804737917,0.169804976,0.973008184,"          Predicted 0  Predicted 1
+RandomForestClassifier,{'n_estimators': 500},0.8600126143172501,0.8047379166710575,0.16980497646267653,0.973008183786561,"          Predicted 0  Predicted 1
 Actual 0        53027         1471
 Actual 1         7407         1515","              precision    recall  f1-score   support
 
@@ -10,7 +10,7 @@ Actual 1         7407         1515","              precision    recall  f1-score
    macro avg       0.69      0.57      0.59     63420
 weighted avg       0.83      0.86      0.83     63420
 "
-LogisticRegression,{'solver': 'lbfgs'},0.862503942,0.823246246,0.153440933,0.97858637,"          Predicted 0  Predicted 1
+LogisticRegression,{'solver': 'lbfgs'},0.8625039419741406,0.8232462462771513,0.1534409325263394,0.9785863701420235,"          Predicted 0  Predicted 1
 Actual 0        53331         1167
 Actual 1         7553         1369","              precision    recall  f1-score   support
 
@@ -21,7 +21,7 @@ Actual 1         7553         1369","              precision    recall  f1-score
    macro avg       0.71      0.57      0.58     63420
 weighted avg       0.83      0.86      0.83     63420
 "
-LogisticRegression_Optimized,"{'C': 0.01, 'penalty': 'l1', 'solver': 'liblinear'}",0.862425102,0.82333682,0.153440933,0.97858637,"          Predicted 0  Predicted 1
+LogisticRegression_Optimized,"{'C': 0.01, 'penalty': 'l1', 'solver': 'liblinear'}",0.8624251024913276,0.8233368204813267,0.1534409325263394,0.9785863701420235,"          Predicted 0  Predicted 1
 Actual 0        53367         1131
 Actual 1         7594         1328","              precision    recall  f1-score   support
 
@@ -32,7 +32,7 @@ Actual 1         7594         1328","              precision    recall  f1-score
    macro avg       0.71      0.56      0.58     63420
 weighted avg       0.83      0.86      0.83     63420
 "
-DecisionTreeClassifier,{'max_depth': None},0.798139388,0.598681888,0.324142569,0.875738559,"          Predicted 0  Predicted 1
+DecisionTreeClassifier,{'max_depth': None},0.7981393882056134,0.5986818880442124,0.324142568930733,0.8757385592131821,"          Predicted 0  Predicted 1
 Actual 0        47726         6772
 Actual 1         6030         2892","              precision    recall  f1-score   support
 
@@ -43,7 +43,7 @@ Actual 1         6030         2892","              precision    recall  f1-score
    macro avg       0.59      0.60      0.60     63420
 weighted avg       0.81      0.80      0.80     63420
 "
-DecisionTreeClassifier_Optimized,"{'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}",0.861415957,0.797904952,0.095942614,0.986733458,"          Predicted 0  Predicted 1
+DecisionTreeClassifier_Optimized,"{'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5}",0.8614159571113214,0.7979049516111222,0.0959426137637301,0.9867334581085544,"          Predicted 0  Predicted 1
 Actual 0        53775          723
 Actual 1         8066          856","              precision    recall  f1-score   support
 
@@ -54,7 +54,7 @@ Actual 1         8066          856","              precision    recall  f1-score
    macro avg       0.71      0.54      0.54     63420
 weighted avg       0.82      0.86      0.82     63420
 "
-KNN,{'n_neighbors': 5},0.846420687,0.723514433,0.200627662,0.952145033,"          Predicted 0  Predicted 1
+KNN,{'n_neighbors': 5},0.8464206874802901,0.7235144327115064,0.20062766195920198,0.952145032845242,"          Predicted 0  Predicted 1
 Actual 0        51890         2608
 Actual 1         7132         1790","              precision    recall  f1-score   support
 
@@ -65,7 +65,7 @@ Actual 1         7132         1790","              precision    recall  f1-score
    macro avg       0.64      0.58      0.59     63420
 weighted avg       0.81      0.85      0.82     63420
 "
-GaussianNB,{},0.775291706,0.785768233,0.574871105,0.80810305,"          Predicted 0  Predicted 1
+GaussianNB,{},0.7752917060864081,0.785768233453144,0.5748711051333781,0.8081030496531982,"          Predicted 0  Predicted 1
 Actual 0        44040        10458
 Actual 1         3793         5129","              precision    recall  f1-score   support
 
@@ -76,7 +76,7 @@ Actual 1         3793         5129","              precision    recall  f1-score
    macro avg       0.62      0.69      0.64     63420
 weighted avg       0.84      0.78      0.80     63420
 "
-GradientBoostingClassifier,{},0.865326395,0.831949947,0.161847119,0.980494697,"          Predicted 0  Predicted 1
+GradientBoostingClassifier,{},0.8653263954588458,0.8319499470741443,0.16184711947993724,0.9804946970531029,"          Predicted 0  Predicted 1
 Actual 0        53435         1063
 Actual 1         7478         1444","              precision    recall  f1-score   support
 
@@ -87,7 +87,7 @@ Actual 1         7478         1444","              precision    recall  f1-score
    macro avg       0.73      0.57      0.59     63420
 weighted avg       0.83      0.87      0.83     63420
 "
-AdaBoostClassifier,{},0.864301482,0.828376601,0.184936113,0.975522038,"          Predicted 0  Predicted 1
+AdaBoostClassifier,{},0.8643014821822769,0.8283766013957362,0.18493611297915266,0.9755220375059636,"          Predicted 0  Predicted 1
 Actual 0        53164         1334
 Actual 1         7272         1650","              precision    recall  f1-score   support
 
@@ -98,7 +98,7 @@ Actual 1         7272         1650","              precision    recall  f1-score
    macro avg       0.72      0.58      0.60     63420
 weighted avg       0.83      0.86      0.83     63420
 "
-AdaBoostClassifier_Optimized,"{'learning_rate': 0.1, 'n_estimators': 200}",0.864963734,0.828382904,0.144810581,0.982861756,"          Predicted 0  Predicted 1
+AdaBoostClassifier_Optimized,"{'learning_rate': 0.1, 'n_estimators': 200}",0.864963733837906,0.8283829039536085,0.14481058058731225,0.9828617563947301,"          Predicted 0  Predicted 1
 Actual 0        53564          934
 Actual 1         7630         1292","              precision    recall  f1-score   support
 
@@ -109,7 +109,7 @@ Actual 1         7630         1292","              precision    recall  f1-score
    macro avg       0.73      0.56      0.58     63420
 weighted avg       0.83      0.86      0.83     63420
 "
-XGBoostClassifier,{},0.864900662,0.828624498,0.170141224,0.978641418,"          Predicted 0  Predicted 1
+XGBoostClassifier,{},0.8649006622516556,0.8286244978921096,0.17014122394082046,0.9786414180336893,"          Predicted 0  Predicted 1
 Actual 0        53334         1164
 Actual 1         7404         1518","              precision    recall  f1-score   support
 
@@ -120,7 +120,7 @@ Actual 1         7404         1518","              precision    recall  f1-score
    macro avg       0.72      0.57      0.59     63420
 weighted avg       0.83      0.86      0.83     63420
 "
-XGBoostClassifier_Optimized,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 500, 'subsample': 0.9}",0.865941343,0.832373321,0.164985429,0.980696539,"          Predicted 0  Predicted 1
+XGBoostClassifier_Optimized,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 500, 'subsample': 0.9}",0.8659413434247871,0.8323733208079327,0.1649854292759471,0.980696539322544,"          Predicted 0  Predicted 1
 Actual 0        53446         1052
 Actual 1         7450         1472","              precision    recall  f1-score   support
 
@@ -131,7 +131,7 @@ Actual 1         7450         1472","              precision    recall  f1-score
    macro avg       0.73      0.57      0.59     63420
 weighted avg       0.84      0.87      0.83     63420
 "
-LightGBMClassifier,{},0.865862504,0.831987531,0.158372562,0.981687401,"          Predicted 0  Predicted 1
+LightGBMClassifier,{},0.8658625039419742,0.8319875310499437,0.15837256220578347,0.9816874013725274,"          Predicted 0  Predicted 1
 Actual 0        53500          998
 Actual 1         7509         1413","              precision    recall  f1-score   support
 
@@ -142,7 +142,7 @@ Actual 1         7509         1413","              precision    recall  f1-score
    macro avg       0.73      0.57      0.59     63420
 weighted avg       0.84      0.87      0.83     63420
 "
-LightGBMClassifier_Optimized,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200, 'num_leaves': 31}",0.865909808,0.831720417,0.165433759,0.980586444,"          Predicted 0  Predicted 1
+LightGBMClassifier_Optimized,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200, 'num_leaves': 31}",0.8659098076316619,0.83172041735639,0.16543375924680565,0.9805864435392124,"          Predicted 0  Predicted 1
 Actual 0        53440         1058
 Actual 1         7446         1476","              precision    recall  f1-score   support
 
@@ -186,16 +186,16 @@ Actual 1         2094         6828","              precision    recall  f1-score
    macro avg       0.63      0.75      0.64     63420
 weighted avg       0.86      0.73      0.77     63420
 "
-SMOTE_LogisticRegression_Optimized,"{'C': 0.01, 'penalty': None, 'solver': 'lbfgs'}",0.7346578366445916,0.8225853630819165,0.7652992602555481,0.7296414547322837,"          Predicted 0  Predicted 1
-Actual 0        39764        14734
-Actual 1         2094         6828","              precision    recall  f1-score   support
+SMOTE_LogisticRegression_Optimized,"{'C': 0.0001, 'penalty': 'l2', 'solver': 'liblinear'}",0.7198202459791864,0.8233676885156244,0.7856982739296122,0.7090351939520716,"          Predicted 0  Predicted 1
+Actual 0        38641        15857
+Actual 1         1912         7010","              precision    recall  f1-score   support
 
-         0.0       0.95      0.73      0.83     54498
-         1.0       0.32      0.77      0.45      8922
+         0.0       0.95      0.71      0.81     54498
+         1.0       0.31      0.79      0.44      8922
 
-    accuracy                           0.73     63420
-   macro avg       0.63      0.75      0.64     63420
-weighted avg       0.86      0.73      0.77     63420
+    accuracy                           0.72     63420
+   macro avg       0.63      0.75      0.63     63420
+weighted avg       0.86      0.72      0.76     63420
 "
 SMOTE_DecisionTreeClassifier,{'max_depth': None},0.7936928413749605,0.5970213074951536,0.3272808787267429,0.8700502770743881,"          Predicted 0  Predicted 1
 Actual 0        47416         7082
