@@ -52,8 +52,8 @@ Neural Network:
 Our analysis revealed challenges in accurately predicting diabetes status, as none of the models we tested achieved an accuracy higher than 75%, even after optimization. Neural networks, despite their complexity, did not outperform traditional machine learning models such as logistic regression or decision trees. This outcome suggests potential limitations in the dataset, including its quality and the challenges associated with its balanced nature.
 
 ## Link to all of the trials and times and the Presentation
-[Full_Roster.xlsx](https://github.com/user-attachments/files/18159506/Full_Roster.xlsx)
-https://docs.google.com/presentation/d/1F1p0W4DJhpHW6dvgM3kICYvIkgiEidSuaZjdmX6pm68/edit?usp=sharing
+[Full_Roster.xlsx](https://github.com/user-attachments/files/18159506/Full_Roster.xlsx) /n
+[Presentation](https://docs.google.com/presentation/d/1F1p0W4DJhpHW6dvgM3kICYvIkgiEidSuaZjdmX6pm68/edit?usp=sharing)
 
 ## Authors
 
